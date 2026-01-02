@@ -17,10 +17,12 @@
       ],
       "run_at": "document_end",
       "matches": [
-        "https://meet.google.com/*"
+        "https://meet.google.com/*",
+        "https://meet.google.com.rproxy.goskope.com/*"
       ],
       "exclude_matches": [
-        "https://meet.google.com/"
+        "https://meet.google.com/",
+        "https://meet.google.com.rproxy.goskope.com/"
       ]
     }
   ],
